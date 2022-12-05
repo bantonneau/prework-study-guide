@@ -44,8 +44,35 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>A variable is a named container that allows us to store data in our code.</li>
-          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Functions can be reduced with arrow functions</li>
+          <li>Traditional anonymous function
+            (function (a) {
+              return a + 100;
+            });
+            
+            1. Remove the word "function" and place arrow between the argument and opening body bracket
+            (a) => {
+              return a + 100;
+            };
+            
+            // 2. Remove the body braces and word "return" — the return is implied.
+            (a) => a + 100;
+            
+            3. Remove the parameter parentheses
+            a => a + 100;
+            Copy to Clipboard
+            </li>
+            <li>Boolean statements can also be simplified</li>
+            <li>if (comment.id === 12483) {
+             return true;
+            }
+
+          can be simplified to
+
+          return comment.id === 12483
+
+          Note that this is exclusive to boolean if statements, with the statement following "return" being the truthy condition.
+            </li>
         </ul>
       </section>
    
